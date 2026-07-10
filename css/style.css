@@ -103,7 +103,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-image: url(/img/Picture/Collection/image\ 277.png);
+    background-image: url(../img/Picture/Collection/image\ 277.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +120,7 @@ body {
       width: 100%;
       height: 20%;
       border-radius: 10px;
-      background-image: url(/img/Picture/Collection/image\ 276.png);
+      background-image: url(../img/Picture/Collection/image\ 276.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -177,7 +177,7 @@ body {
       width: 100%;
       height: 20%;
       border-radius: 10px;
-      background-image: url(/img/Picture/Collection/image\ 279.png);
+      background-image: url(../img/Picture/Collection/image\ 279.png);
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -187,7 +187,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-image: url(/img/Picture/Collection/image\ 278.png);
+    background-image: url(../img/Picture/Collection/image\ 278.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +327,7 @@ body {
       > img {
         width: 100%;
         height: 100%;
-        object-fit: unset;
+        object-fit: cover;
       }
       > figcaption {
         width: 100%;
@@ -812,7 +812,7 @@ footer {
     > .picture {
       width: 45%;
       height: 100%;
-      background-image: url(/img/Picture/Login/image/Sign-In.jpg);
+      background-image: url(../img/Picture/Login/image/Sign-In.jpg);
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover;
@@ -990,7 +990,7 @@ footer {
     > .picture {
       width: 45%;
       height: 100%;
-      background-image: url(/img/Picture/Login/image/Sign-Up.jpg);
+      background-image: url(../img/Picture/Login/image/Sign-Up.jpg);
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover;
