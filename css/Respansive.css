@@ -1,0 +1,1283 @@
+/* ===========================================
+                TABLET
+=========================================== */
+
+@media (max-width:992px){
+
+/* ////////////////// Header ////////////////// */
+  .Head-Top{
+    height:auto;
+    padding:25px 35px;
+    flex-direction:column;
+    gap:25px;
+
+    >.icon-Text{
+
+      width:100%;
+      justify-content:center;
+
+    }
+
+    >.Menu{
+
+      width:100%;
+      justify-content:center;
+
+      >ul{
+
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Collection ////////////////// */
+
+  .Collection{
+
+    height:auto;
+    grid-template-columns:1fr;
+    padding:35px;
+    gap:25px;
+
+    >.Item-1,
+    >.Item-3{
+
+      height:500px;
+      background-attachment:scroll;
+
+    }
+
+    >.Item-2{
+
+      gap:20px;
+
+      >.pic-Collection-1,
+      >.pic-Collection-2{
+
+        height:180px;
+
+      }
+
+      >.Text-col{
+
+        height:auto;
+        gap:18px;
+
+        >h1{
+
+          font-size:70px;
+
+        }
+
+        >h2{
+
+          font-size:120px;
+          margin:0;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Branding ////////////////// */
+
+  .Branding{
+
+    height:auto;
+    padding:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+
+    >div{
+
+      width:220px;
+      height:100px;
+
+      >img{
+
+        max-width:80%;
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Delay ////////////////// */
+
+  .Delay{
+
+    height:auto;
+    grid-template-columns:1fr;
+    padding:35px;
+    gap:40px;
+
+    >.Text-Sec3{
+
+      align-items:center;
+      text-align:center;
+
+      >p{
+
+        width:100%;
+
+      }
+
+    }
+
+    >.slider{
+
+      height:500px;
+      margin:0;
+
+      figure{
+
+        figcaption{
+
+          width:120px;
+          height:120px;
+          font-size:35px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+/* ===========================================
+                MOBILE
+=========================================== */
+
+@media (max-width:768px){
+
+  /* ////////////////// Header ////////////////// */
+
+  .Head-Top{
+
+    padding:20px;
+
+    >.icon-Text{
+
+      >h2{
+
+        font-size:40px;
+
+      }
+
+    }
+
+    >.Menu{
+
+      >ul{
+
+        flex-direction:column;
+        gap:18px;
+
+        >.Bt-Menu{
+
+          width:180px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Collection ////////////////// */
+
+  .Collection{
+
+    padding:20px;
+
+    >.Item-1,
+    >.Item-3{
+
+      height:320px;
+
+    }
+
+    >.Item-2{
+
+      justify-content:center;
+
+      >.pic-Collection-1,
+      >.pic-Collection-2{
+
+        display:none;
+
+      }
+
+      >.Text-col{
+
+        padding:20px 0;
+
+        >h1{
+
+          font-size:45px;
+
+        }
+
+        >h2{
+
+          font-size:75px;
+
+        }
+
+        >h4{
+
+          font-size:18px;
+
+        }
+
+        >.bt-col{
+
+          margin-top:10px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Branding ////////////////// */
+
+  .Branding{
+
+    padding:20px;
+    gap:20px;
+
+    >div{
+
+      width:45%;
+      height:80px;
+
+    }
+
+  }
+
+  /* ////////////////// Delay ////////////////// */
+
+  .Delay{
+
+    padding:20px;
+
+    >.Text-Sec3{
+
+      >h3{
+
+        font-size:36px;
+
+      }
+
+      >.Free-shope{
+
+        >.number{
+
+          justify-content:center;
+          flex-wrap:wrap;
+          gap:15px;
+
+        }
+
+      }
+
+    }
+
+    >.slider{
+
+      height:360px;
+
+      figure{
+
+        figcaption{
+
+          width:90px;
+          height:90px;
+          font-size:25px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+/* ===========================================
+            SMALL MOBILE
+=========================================== */
+
+@media (max-width:480px){
+
+  /* ////////////////// Header ////////////////// */
+
+  .Head-Top{
+
+    padding:15px;
+
+    >.icon-Text{
+
+      >h2{
+
+        font-size:32px;
+
+      }
+
+    }
+
+    >.Menu{
+
+      >ul{
+
+        >a{
+
+          font-size:14px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Collection ////////////////// */
+
+  .Collection{
+
+    padding:15px;
+
+    >.Item-1,
+    >.Item-3{
+
+      height:230px;
+
+    }
+
+    >.Item-2{
+
+      >.Text-col{
+
+        >h1{
+
+          font-size:32px;
+
+        }
+
+        >h2{
+
+          font-size:55px;
+
+        }
+
+        >h4{
+
+          font-size:15px;
+
+        }
+
+        >.bt-col{
+
+          width:150px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// Branding ////////////////// */
+
+  .Branding{
+
+    flex-direction:column;
+
+    >div{
+
+      width:100%;
+
+    }
+
+  }
+
+  /* ////////////////// Delay ////////////////// */
+
+  .Delay{
+
+    padding:15px;
+
+    >.Text-Sec3{
+
+      >h3{
+
+        font-size:28px;
+
+      }
+
+      >.Free-shope{
+
+        >h4{
+
+          font-size:24px;
+
+        }
+
+        >.number{
+
+          gap:10px;
+
+          >.time-box{
+
+            font-size:24px;
+
+            >.value{
+
+              width:55px;
+              height:45px;
+
+            }
+
+            >.lable{
+
+              font-size:16px;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    >.slider{
+
+      height:260px;
+
+    }
+
+  }
+
+}
+/* ===========================================
+                TABLET
+=========================================== */
+
+@media (max-width:992px){
+
+  /* ////////////////// CARD ////////////////// */
+
+  .cuntainer{
+
+    overflow-x:auto;
+
+    >.scroll{
+
+      padding:30px;
+
+      >.card{
+
+        width:320px;
+        height:470px;
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// WOMEN ////////////////// */
+
+  .Women-Collection{
+
+    height:auto;
+    flex-direction:column;
+
+    >figure{
+
+      width:100%;
+
+    }
+
+    >div{
+
+      width:100%;
+      padding:40px;
+
+    }
+
+  }
+
+  /* ////////////////// TRUST ////////////////// */
+
+  .Trust{
+
+    height:auto;
+    padding:30px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+
+    >div{
+
+      padding:20px;
+      border-radius:15px;
+
+    }
+
+  }
+
+  /* ////////////////// FOLLOW ////////////////// */
+
+  .Follow-US{
+
+    height:auto;
+    padding:30px 0;
+
+    >.Text{
+
+      height:auto;
+      margin-bottom:30px;
+
+      >p{
+
+        width:90%;
+
+      }
+
+    }
+
+    >.slider{
+
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:10px;
+      padding:20px;
+
+    }
+
+  }
+
+  /* ////////////////// SUBSCRIBE ////////////////// */
+
+  .Subscribe{
+
+    grid-template-columns:1fr;
+    gap:30px;
+    text-align:center;
+
+    >figure{
+
+      display:flex;
+      justify-content:center;
+
+    }
+
+    >.text-center{
+
+      >.text-sub{
+
+        width:100%;
+
+        >p{
+
+          width:100%;
+          text-align:center;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// FOOTER ////////////////// */
+
+  footer{
+
+    height:auto;
+    padding:30px;
+
+    >.logo-li{
+
+      height:auto;
+      flex-direction:column;
+      gap:25px;
+
+      >h3{
+
+        width:100%;
+        justify-content:center;
+        padding:30px;
+
+      }
+
+      >ul{
+
+        width:100%;
+        justify-content:center;
+        flex-wrap:wrap;
+
+      }
+
+    }
+
+  }
+
+}
+
+/* ===========================================
+                MOBILE
+=========================================== */
+
+@media (max-width:768px){
+
+  /* ////////////////// CARD ////////////////// */
+
+  .cuntainer{
+
+    >.scroll{
+
+      padding:20px;
+
+      >.card{
+
+        width:270px;
+        height:420px;
+
+        &:hover{
+
+          scale:1;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// WOMEN ////////////////// */
+
+  .Women-Collection{
+
+    >div{
+
+      padding:30px;
+
+      >h3{
+
+        font-size:38px;
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// TRUST ////////////////// */
+
+  .Trust{
+
+    padding:20px;
+    gap:20px;
+
+    >div{
+
+      >h3{
+
+        font-size:22px;
+
+      }
+
+      >span{
+
+        font-size:15px;
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// FOLLOW ////////////////// */
+
+  .Follow-US{
+
+    >.Text{
+
+      >h3{
+
+        font-size:28px;
+
+      }
+
+    }
+
+    >.slider{
+
+      grid-template-columns:repeat(2,1fr);
+
+    }
+
+  }
+
+  /* ////////////////// SUBSCRIBE ////////////////// */
+
+  .Subscribe{
+
+    padding:30px 20px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto auto auto;
+    gap:25px;
+
+    >.text-center{
+
+      >.text-sub{
+
+        >h3{
+
+          font-size:30px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// FOOTER ////////////////// */
+
+  footer{
+
+    >.logo-li{
+
+      >ul{
+
+        gap:15px;
+
+      }
+
+    }
+
+    >.copy-right{
+
+      text-align:center;
+      padding:20px 0;
+
+    }
+
+  }
+
+}
+
+/* ===========================================
+            SMALL MOBILE
+=========================================== */
+
+@media (max-width:480px){
+
+  /* ////////////////// CARD ////////////////// */
+
+  .cuntainer{
+
+    >.scroll{
+
+      padding:15px;
+
+      >.card{
+
+        width:230px;
+        height:360px;
+
+        >figcaption{
+
+          font-size:16px;
+
+          >h5{
+
+            font-size:22px;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// WOMEN ////////////////// */
+
+  .Women-Collection{
+
+    >div{
+
+      padding:20px;
+
+      >h3{
+
+        font-size:30px;
+
+      }
+
+      >.Bt-woman{
+
+        width:160px;
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// TRUST ////////////////// */
+
+  .Trust{
+
+    grid-template-columns:1fr;
+
+  }
+
+  /* ////////////////// FOLLOW ////////////////// */
+
+  .Follow-US{
+
+    >.Text{
+
+      >h3{
+
+        font-size:24px;
+
+      }
+
+      >p{
+
+        font-size:14px;
+
+      }
+
+    }
+
+    >.slider{
+
+      grid-template-columns:1fr;
+
+    }
+
+  }
+
+  /* ////////////////// SUBSCRIBE ////////////////// */
+
+  .Subscribe{
+
+    padding:20px 15px;
+
+    >.text-center{
+
+      >.text-sub{
+
+        gap:15px;
+
+        >h3{
+
+          font-size:25px;
+
+        }
+
+        >p{
+
+          font-size:15px;
+
+        }
+
+        >.Bt-Sub{
+
+          width:170px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  /* ////////////////// FOOTER ////////////////// */
+
+  footer{
+
+    >.logo-li{
+
+      >ul{
+
+        flex-direction:column;
+
+      }
+
+    }
+
+    >.copy-right{
+
+      font-size:13px;
+
+    }
+
+  }
+
+}
+@media (max-width:768px){
+
+  .box-sign-in{
+
+    min-height:100vh;
+    padding:20px 10px;
+
+    >.SignIn{
+
+      width:100%;
+      height:auto;
+      flex-direction:column;
+
+      >.picture{
+
+        display:none;
+
+      }
+
+      >.list-Sign-In{
+
+        width:100%;
+        padding:20px;
+
+        >.text-list{
+
+          >.text{
+
+            align-items:center;
+
+            >h3{
+              font-size:50px;
+            }
+
+            >p{
+              font-size:20px;
+            }
+
+          }
+
+          >.sign-By{
+
+            flex-direction:column;
+            gap:15px;
+
+            >.Bt-Sign{
+
+              width:100%;
+              height:55px;
+
+            }
+
+          }
+
+          >.input-text{
+
+            >.type{
+
+              width:100%;
+              height:55px;
+
+            }
+
+          }
+
+          >.input-button{
+
+            >.Bt-send,
+            >.Bt-Rigister,
+            >.txt-frogetpass{
+
+              width:100%;
+              margin:10px 0;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+/* =========================================
+            SIGN UP RESPONSIVE
+========================================= */
+
+/* ---------- Tablet ---------- */
+
+@media (max-width:992px){
+
+  .box-sign-Up{
+
+    height:auto;
+    padding:30px 20px;
+
+    >.SignUp{
+
+      width:100%;
+      height:auto;
+
+      >.picture{
+
+        width:40%;
+
+      }
+
+      >.list-Sign-Up{
+
+        width:60%;
+
+        >.text-list-Up{
+
+          >.sign-By-Up{
+
+            flex-direction:column;
+            gap:15px;
+
+            >.Bt-Sign-Up{
+
+              width:100%;
+              height:55px;
+
+            }
+
+          }
+
+          >.input-text-Up{
+
+            grid-template-columns:1fr;
+
+            >.type-Up{
+
+              width:100%;
+
+            }
+
+          }
+
+          >.input-button-Up{
+
+            >.Bt-send-Up,
+            >.Bt-Rigister-Up{
+
+              width:100%;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px){
+
+  .box-sign-Up{
+
+    min-height:100vh;
+    height:auto;
+    padding:20px 10px;
+
+    >.SignUp{
+
+      width:100%;
+      height:auto;
+      flex-direction:column;
+
+      >.picture{
+
+        display:none;
+
+      }
+
+      >.list-Sign-Up{
+
+        width:100%;
+        padding:20px;
+
+        >.text-list-Up{
+
+          >.text-Up{
+
+            align-items:center;
+
+            >h3{
+
+              font-size:50px;
+
+            }
+
+            >p{
+
+              font-size:20px;
+
+            }
+
+          }
+
+          >.sign-By-Up{
+
+            width:100%;
+            flex-direction:column;
+            gap:15px;
+
+            >.Bt-Sign-Up{
+
+              width:100%;
+              height:55px;
+
+            }
+
+          }
+
+          >.input-text-Up{
+
+            width:100%;
+            grid-template-columns:1fr;
+            gap:15px;
+
+            >.type-Up{
+
+              width:100%;
+              height:55px;
+
+            }
+
+          }
+
+          >.input-button-Up{
+
+            width:100%;
+
+            >.Bt-send-Up,
+            >.Bt-Rigister-Up,
+            >.txt-frogetpass-Up{
+
+              width:100%;
+              margin:10px 0;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width:480px){
+
+  .box-sign-Up{
+
+    padding:10px;
+
+    >.SignUp{
+
+      border-radius:15px;
+
+      >.list-Sign-Up{
+
+        padding:15px;
+
+        >.text-list-Up{
+
+          >.text-Up{
+
+            >h3{
+
+              font-size:42px;
+
+            }
+
+            >p{
+
+              font-size:18px;
+
+            }
+
+          }
+
+          >.text-Or-Up{
+
+            font-size:22px;
+
+          }
+
+          >.sign-By-Up{
+
+            >.Bt-Sign-Up{
+
+              font-size:15px;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
