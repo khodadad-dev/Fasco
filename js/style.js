@@ -115,7 +115,7 @@ if (inputs.length > 0) {
       inputs[5].value == inputs[4].value
     ) {
       btn.innerHTML = "Successful ✅";
-      location.href = "/index.html";
+      location.href = "../index.html";
     } else {
       btn.innerHTML = "Fill in the fields ❌";
       btn.style.border="2px solid red"
@@ -154,7 +154,7 @@ if (inputSignIn.length > 0) {
       inputSignIn[0].value.includes("@gmail.com") && inputSignIn[1].value.length >= 8 
     ) {
       btnIn.innerHTML = "Successful ✅";
-      location.href = "/index.html";
+      location.href = "../index.html";
     } else {
       btnIn.innerHTML = "Fill in the fields ❌";
     }
